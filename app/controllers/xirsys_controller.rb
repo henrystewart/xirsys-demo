@@ -185,10 +185,10 @@ class XirsysController < ApplicationController
   private
 
   def store_xirsys_credentials
-    @xirsys_domain = ENV['XIRSYS_DOMAIN']
-    @xirsys_application = ENV['XIRSYS_APPLICATION']
-    @xirsys_ident = ENV['XIRSYS_IDENT']
-    @xirsys_secret = ENV['XIRSYS_SECRET']
+    @xirsys_domain = "default" #ENV['XIRSYS_DOMAIN']
+    @xirsys_application = "default" #ENV['XIRSYS_APPLICATION']
+    @xirsys_ident = "sweetpotato" #ENV['XIRSYS_IDENT']
+    @xirsys_secret = "7ce060ab-9986-4068-b0c5-eb855f055552" #ENV['XIRSYS_SECRET']
   end
 
 end
